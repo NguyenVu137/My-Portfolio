@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossy Touch - Modern Glass Design Experience</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- SINGLE NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Grid of circles with varying sizes -->
+                            <circle cx="16" cy="16" r="5" opacity="0.9" />
+                            <circle cx="32" cy="16" r="4" opacity="0.8" />
+                            <circle cx="16" cy="32" r="4" opacity="0.7" />
+                            <circle cx="32" cy="32" r="5" opacity="0.85" />
+                            <!-- Small accent dots -->
+                            <circle cx="24" cy="8" r="2" opacity="1" />
+                            <circle cx="8" cy="24" r="2" opacity="0.9" />
+                            <circle cx="40" cy="24" r="2" opacity="0.9" />
+                            <circle cx="24" cy="40" r="2" opacity="1" />
+                            <!-- Tiny corner dots -->
+                            <circle cx="8" cy="8" r="1" opacity="0.6" />
+                            <circle cx="40" cy="8" r="1" opacity="0.6" />
+                            <circle cx="8" cy="40" r="1" opacity="0.6" />
+                            <circle cx="40" cy="40" r="1" opacity="0.6" />
+                        </svg>
+                    </div>
+                    <span>My Portfolio</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" onclick="showPage('home')" class="active">Home</a>
+                    <a href="#" onclick="showPage('about')">About</a>
+                    <a href="#" onclick="showPage('services')">Services</a>
+                    <a href="#" onclick="showPage('contact')">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- HERO SECTION -->
+                <section class="hero glass">
+                    <div class="hero-image">
+                        <img src="/assets/img/avt.jpg" alt="Ảnh đại diện - Đặng Nguyên Vũ" />
+                    </div>
+                    <div class="hero-content">
+                        <h1>Xin chào, tôi là <span style="color:#0b78d1;">Đặng Nguyên Vũ</span> 👋</h1>
+                        <p>
+                            Sinh viên ngành <strong>Công nghệ thông tin</strong> — đam mê lập trình Web
+                            và mong muốn xây dựng những sản phẩm công nghệ hữu ích, sáng tạo.
+                        </p>
+                        <a href="#" class="cta-button" onclick="showPage('about')">Xem thêm</a>
+                    </div>
+                </section>
+
+                <!-- FEATURE SECTION -->
+                <section class="features">
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">💻</div>
+                        <h3>Lập trình Web</h3>
+                        <p>Thành thạo HTML, CSS, JavaScript và đang phát triển kỹ năng với Node.js, Express, MySQL.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Hiệu suất tốt</h3>
+                        <p>Tối ưu giao diện, hiệu ứng và cấu trúc giúp website chạy mượt mà trên nhiều thiết bị.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Thiết kế linh hoạt, hiển thị tốt trên mọi kích thước màn hình từ điện thoại tới máy tính.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Giao diện hiện đại</h3>
+                        <p>Sử dụng hiệu ứng glassmorphism kết hợp màu sắc hài hòa để tạo trải nghiệm trực quan.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Không ngừng học hỏi</h3>
+                        <p>Luôn sẵn sàng cập nhật công nghệ mới và áp dụng vào các dự án thực tế.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Kỹ năng mềm</h3>
+                        <p>Khả năng làm việc nhóm, giao tiếp và tiếp thu nhanh — sẵn sàng cho các dự án hợp tác.</p>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- GIỚI THIỆU -->
+                <section class="about-content">
+                    <div class="about-text glass">
+                        <h2>Giới thiệu bản thân</h2>
+                        <p>
+                            Xin chào 👋, tôi là <strong>Đặng Nguyên Vũ</strong> — sinh viên ngành
+                            <strong>Công nghệ thông tin</strong> với niềm đam mê lập trình web và phát triển sản phẩm
+                            thực tế.
+                        </p>
+                        <p>
+                            Tôi yêu thích việc xây dựng các trang web thân thiện, hiệu suất cao và có thể triển khai
+                            trên thực tế.
+                            Các dự án bên dưới chính là quá trình tôi học tập và rèn luyện kỹ năng của mình.
+                        </p>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat-card glass">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Dự án cá nhân</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Mảng công nghệ</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Đam mê học hỏi</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">🚀</div>
+                            <div class="stat-label">Mục tiêu: Fullstack Dev</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- DỰ ÁN -->
+                <section class="team-section">
+                    <h2>Dự án đã thực hiện</h2>
+                    <div class="team-grid">
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">🌐</div>
+                            <h3>Website Portfolio</h3>
+                            <p class="role">Frontend - HTML, CSS, JS</p>
+                            <p class="bio">
+                                Trang portfolio cá nhân giới thiệu bản thân, kỹ năng và các dự án. Thiết kế hiện đại,
+                                hiệu ứng Glassmorphism.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">📊</div>
+                            <h3>App Quản lý công việc</h3>
+                            <p class="role">Fullstack - Node.js, Express, MySQL</p>
+                            <p class="bio">
+                                Ứng dụng web quản lý công việc (to-do list) cho phép thêm, sửa, xóa và lưu trữ dữ liệu
+                                người dùng.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">🚗</div>
+                            <h3>EV Data Marketplace</h3>
+                            <p class="role">Web platform</p>
+                            <p class="bio">
+                                Dự án mô phỏng nền tảng trao đổi dữ liệu xe điện: tìm kiếm, lọc dữ liệu và kết nối người
+                                dùng với nhà cung cấp.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">📝</div>
+                            <h3>Form Liên hệ động</h3>
+                            <p class="role">Frontend + Form API</p>
+                            <p class="bio">
+                                Mẫu form liên hệ tích hợp gửi dữ liệu thật qua API, có thể triển khai cho nhiều loại
+                                website.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">🧾</div>
+                            <h3>Mini Blog</h3>
+                            <p class="role">Node.js + MySQL</p>
+                            <p class="bio">
+                                Một dự án blog nhỏ có thể đăng bài, lưu trữ và hiển thị nội dung. Giao diện gọn nhẹ và
+                                dễ tùy biến.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                        <div class="team-member glass">
+                            <div class="team-avatar">📱</div>
+                            <h3>Landing Page</h3>
+                            <p class="role">Frontend</p>
+                            <p class="bio">
+                                Trang landing page hiện đại với hiệu ứng parallax và animation, tối ưu cho thiết bị di
+                                động.
+                            </p>
+                            <div class="team-social">
+                                <a href="https://github.com/NguyenVu137" target="_blank" title="GitHub">💻</a>
+                                <a href="#" target="_blank" title="Demo">🔗</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SERVICES PAGE -->
+    <div id="services" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- HERO -->
+                <section class="hero glass">
+                    <h1>Kỹ năng & Lĩnh vực thực hiện</h1>
+                    <p>
+                        Đây là những mảng công việc tôi có thể thực hiện và đang tiếp tục phát triển.
+                        Mục tiêu của tôi là trở thành một lập trình viên Fullstack có thể đảm nhận cả Frontend và
+                        Backend.
+                    </p>
+                </section>
+
+                <!-- SERVICE CARDS -->
+                <section class="services-grid">
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">💻</div>
+                            <h3>Front-End Development</h3>
+                        </div>
+                        <p>
+                            Xây dựng giao diện web hiện đại, thân thiện với người dùng, tối ưu tốc độ và trải nghiệm.
+                        </p>
+                        <ul class="service-features">
+                            <li>HTML / CSS / JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>Animation & UI Effects</li>
+                            <li>Thiết kế giao diện gọn nhẹ, dễ dùng</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">⚙️</div>
+                            <h3>Back-End Cơ bản</h3>
+                        </div>
+                        <p>
+                            Xây dựng API cơ bản, xử lý dữ liệu, kết nối và tương tác với cơ sở dữ liệu.
+                        </p>
+                        <ul class="service-features">
+                            <li>Node.js / Express</li>
+                            <li>Kết nối MySQL</li>
+                            <li>Xử lý form & dữ liệu</li>
+                            <li>Triển khai REST API đơn giản</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🧭</div>
+                            <h3>Thiết kế giao diện</h3>
+                        </div>
+                        <p>
+                            Áp dụng hiệu ứng Glassmorphism, màu sắc hài hòa, bố cục rõ ràng để tăng trải nghiệm người
+                            dùng.
+                        </p>
+                        <ul class="service-features">
+                            <li>Thiết kế UI cơ bản</li>
+                            <li>Hiệu ứng Glass / Blur</li>
+                            <li>Component Reuse</li>
+                            <li>Phong cách hiện đại, trẻ trung</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🛢️</div>
+                            <h3>Cơ sở dữ liệu</h3>
+                        </div>
+                        <p>
+                            Thiết kế bảng dữ liệu, thực hiện các truy vấn CRUD và kết nối với ứng dụng web.
+                        </p>
+                        <ul class="service-features">
+                            <li>MySQL cơ bản</li>
+                            <li>Thiết kế bảng & quan hệ</li>
+                            <li>CRUD Operations</li>
+                            <li>Kết nối qua API</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🚀</div>
+                            <h3>Triển khai & học hỏi</h3>
+                        </div>
+                        <p>
+                            Sẵn sàng tìm hiểu, thử nghiệm công nghệ mới, triển khai các dự án cá nhân và mở rộng kỹ
+                            năng.
+                        </p>
+                        <ul class="service-features">
+                            <li>Triển khai web cơ bản</li>
+                            <li>Học hỏi nhanh</li>
+                            <li>Tự nghiên cứu công nghệ</li>
+                            <li>Git & GitHub</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🤝</div>
+                            <h3>Kỹ năng mềm</h3>
+                        </div>
+                        <p>
+                            Làm việc nhóm tốt, giao tiếp rõ ràng và có trách nhiệm trong quá trình phát triển dự án.
+                        </p>
+                        <ul class="service-features">
+                            <li>Làm việc nhóm</li>
+                            <li>Giao tiếp - cộng tác</li>
+                            <li>Chủ động học hỏi</li>
+                            <li>Tư duy giải quyết vấn đề</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- LIÊN HỆ -->
+                <section class="contact-grid">
+                    <div class="contact-form glass">
+                        <h2>Liên hệ với tôi</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Họ và tên</label>
+                                <input type="text" id="name" name="name" placeholder="Nhập họ và tên của bạn" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Nhập email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Chủ đề</label>
+                                <input type="text" id="subject" name="subject" placeholder="Chủ đề liên hệ...">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Nội dung</label>
+                                <textarea id="message" name="message" placeholder="Nhập nội dung bạn muốn trao đổi..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button">Gửi tin nhắn</button>
+                        </form>
+                    </div>
+
+                    <!-- THÔNG TIN CÁ NHÂN -->
+                    <div class="contact-info glass">
+                        <h2>Thông tin liên hệ</h2>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p>nguyenvu4424@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-text">
+                                <h4>Số điện thoại</h4>
+                                <p>0382029122</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🌐</div>
+                            <div class="contact-item-text">
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/NguyenVu137" target="_blank">github.com/NguyenVu137</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Địa chỉ</h4>
+                                <p>TP. Hồ Chí Minh, Việt Nam</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SINGLE FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <footer class="glass">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="#" onclick="showPage('about')">About Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">XML Sitemap</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2025 Đặng Nguyên Vũ. All rights reserved. Crafted with modern web technologies.
+                        Provided by Nguyên Vũ
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
